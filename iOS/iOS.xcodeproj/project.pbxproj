@@ -14,6 +14,7 @@
 		D0B25B6219E22A1F00C381C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B25B6119E22A1F00C381C2 /* Images.xcassets */; };
 		D0B25B6519E22A1F00C381C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B25B6319E22A1F00C381C2 /* LaunchScreen.xib */; };
 		D0B25B7119E22A1F00C381C2 /* iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B25B7019E22A1F00C381C2 /* iOSTests.m */; };
+		D0B25B7B19E6122600C381C2 /* 3769-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0B25B7A19E6122600C381C2 /* 3769-5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D0B25B6A19E22A1F00C381C2 /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B25B6F19E22A1F00C381C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0B25B7019E22A1F00C381C2 /* iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTests.m; sourceTree = "<group>"; };
+		D0B25B7A19E6122600C381C2 /* 3769-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3769-5.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		D0B25B5419E22A1F00C381C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0B25B7A19E6122600C381C2 /* 3769-5.jpg */,
 				D0B25B5519E22A1F00C381C2 /* Info.plist */,
 				D0B25B5619E22A1F00C381C2 /* main.m */,
 			);
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B25B7B19E6122600C381C2 /* 3769-5.jpg in Resources */,
 				D0B25B6019E22A1F00C381C2 /* Main.storyboard in Resources */,
 				D0B25B6519E22A1F00C381C2 /* LaunchScreen.xib in Resources */,
 				D0B25B6219E22A1F00C381C2 /* Images.xcassets in Resources */,
@@ -414,6 +418,7 @@
 				D0B25B7619E22A1F00C381C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0B25B7719E22A1F00C381C2 /* Build configuration list for PBXNativeTarget "iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				D0B25B7919E22A1F00C381C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
