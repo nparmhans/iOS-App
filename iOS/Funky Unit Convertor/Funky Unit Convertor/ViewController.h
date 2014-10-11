@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *numberOFBillsLabel;
+@property (strong, nonatomic) IBOutlet UITextField *numberOfBillsTextField;
+- (IBAction)convertUnits:(UIButton *)sender;
 
 
 @end
