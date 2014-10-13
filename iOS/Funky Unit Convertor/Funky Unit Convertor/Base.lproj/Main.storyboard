@@ -25,6 +25,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAn-I1-Mui">
                                 <rect key="frame" x="137" y="161" width="96" height="30"/>
                                 <state key="normal" title="Convert Value">
+                                    <color key="titleColor" red="1" green="0.22881570600000001" blue="0.22378972189999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
