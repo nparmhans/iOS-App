@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)numberButton:(UIButton *)sender
+{
+    float numberOfHumanYears = [self.numberTextField.text floatValue];
+    float numberOfDogYears = numberOfHumanYears * 7;
+    
+    self.numberLabel.text=[NSString stringWithFormat:@"%f", numberOfDogYears];
+}
 @end
