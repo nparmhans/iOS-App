@@ -11,10 +11,12 @@
 @interface ViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UILabel *numberLabel;
+@property (strong, nonatomic) IBOutlet UILabel *realYearsLabel;
 
 @property (strong, nonatomic) IBOutlet UITextField *numberTextField;
 
 - (IBAction)numberButton:(UIButton *)sender;
+- (IBAction)convertToRealDogYearsButton:(UIButton *)sender;
 
 @end
 
