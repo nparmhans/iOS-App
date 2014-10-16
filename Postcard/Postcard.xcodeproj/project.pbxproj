@@ -14,6 +14,7 @@
 		D070E98D19EF5E9E00729239 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D070E98B19EF5E9E00729239 /* LaunchScreen.xib */; };
 		D070E99919EF5E9E00729239 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070E99819EF5E9E00729239 /* PostcardTests.swift */; };
 		D070E9A319F05B8A00729239 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D070E9A219F05B8A00729239 /* SagradaFamilia.jpeg */; };
+		D0BCD10E19F05F670044945D /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0BCD10D19F05F670044945D /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D070E99719EF5E9E00729239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D070E99819EF5E9E00729239 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
 		D070E9A219F05B8A00729239 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		D0BCD10D19F05F670044945D /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		D070E98019EF5E9E00729239 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0BCD10D19F05F670044945D /* AlbertEinsteinStamp.jpg */,
 				D070E9A219F05B8A00729239 /* SagradaFamilia.jpeg */,
 				D070E98119EF5E9E00729239 /* Info.plist */,
 			);
@@ -197,6 +200,7 @@
 			files = (
 				D070E98819EF5E9E00729239 /* Main.storyboard in Resources */,
 				D070E9A319F05B8A00729239 /* SagradaFamilia.jpeg in Resources */,
+				D0BCD10E19F05F670044945D /* AlbertEinsteinStamp.jpg in Resources */,
 				D070E98D19EF5E9E00729239 /* LaunchScreen.xib in Resources */,
 				D070E98A19EF5E9E00729239 /* Images.xcassets in Resources */,
 			);
@@ -411,6 +415,7 @@
 				D070E99E19EF5E9E00729239 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D070E99F19EF5E9E00729239 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				D070E9A119EF5E9E00729239 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
