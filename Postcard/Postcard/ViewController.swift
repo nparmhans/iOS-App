@@ -32,7 +32,7 @@ class ViewController: UIViewController
     
     @IBAction func sendNowButton(sender: UIButton)
     {
-        
+        messageLabel.hidden = false
         
     }
 
