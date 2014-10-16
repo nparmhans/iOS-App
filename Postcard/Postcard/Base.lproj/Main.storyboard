@@ -67,6 +67,9 @@
                                 <state key="normal" title="Send Now">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendNowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5a6-6O-3p5"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yN-85-6LM">
                                 <rect key="frame" x="16" y="72" width="158" height="31"/>
@@ -78,6 +81,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="enterMessageTextField" destination="9ju-nS-oWA" id="lYI-qe-taH"/>
+                        <outlet property="enterNameTextField" destination="QYM-Vh-aVC" id="YZd-DL-DkG"/>
+                        <outlet property="messageLabel" destination="7yN-85-6LM" id="IPO-a0-2wr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
