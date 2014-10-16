@@ -14,12 +14,37 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    int truckSpeed = 45;
+    int lamboSpeed = 120;
+    int mySpeed = lamboSpeed;
+    
+    if (mySpeed < 70)
+    {
+        NSLog(@"Keep Crusing");
+    }
+    else
+    {
+        NSLog(@"SLow Down");
+    }
+    
+    BOOL isTelevisionOn =YES;
+    
+    if (isTelevisionOn ==YES)
+    {
+        NSLog(@"We should take a break soon and do some coding");
+        
+    }
+    else if (@"Great job keep up the hard work");
 }
 
-- (void)didReceiveMemoryWarning {
+
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
