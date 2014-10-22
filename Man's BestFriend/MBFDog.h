@@ -10,4 +10,10 @@
 
 @interface MBFDog : NSObject
 
+@property (nonatomic) int age;
+
+
+
+
+
 @end

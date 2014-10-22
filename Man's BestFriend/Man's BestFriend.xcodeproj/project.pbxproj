@@ -41,8 +41,8 @@
 		D0FDB13419F5F14F009B79CA /* Man's BestFriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Man's BestFriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FDB13919F5F14F009B79CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FDB13A19F5F14F009B79CA /* Man_s_BestFriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_BestFriendTests.m; sourceTree = "<group>"; };
-		D0FDB14419F5F645009B79CA /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
-		D0FDB14519F5F645009B79CA /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
+		D0FDB14419F5F645009B79CA /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
+		D0FDB14519F5F645009B79CA /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,6 @@
 		D0FDB11219F5F14F009B79CA = {
 			isa = PBXGroup;
 			children = (
-				D0FDB14419F5F645009B79CA /* MBFDog.h */,
-				D0FDB14519F5F645009B79CA /* MBFDog.m */,
 				D0FDB11D19F5F14F009B79CA /* Man's BestFriend */,
 				D0FDB13719F5F14F009B79CA /* Man's BestFriendTests */,
 				D0FDB11C19F5F14F009B79CA /* Products */,
@@ -90,6 +88,8 @@
 				D0FDB12319F5F14F009B79CA /* AppDelegate.m */,
 				D0FDB12519F5F14F009B79CA /* ViewController.h */,
 				D0FDB12619F5F14F009B79CA /* ViewController.m */,
+				D0FDB14419F5F645009B79CA /* MBFDog.h */,
+				D0FDB14519F5F645009B79CA /* MBFDog.m */,
 				D0FDB12819F5F14F009B79CA /* Main.storyboard */,
 				D0FDB12B19F5F14F009B79CA /* Images.xcassets */,
 				D0FDB12D19F5F14F009B79CA /* LaunchScreen.xib */,
