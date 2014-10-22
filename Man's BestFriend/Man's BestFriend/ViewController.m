@@ -24,7 +24,10 @@
     myDog.name = @"Craig";
     myDog.breed = @"St. Bernard";
     myDog.age = 1;
-    [myDog barkANumberOfTimes:5 loudly:YES];
+ 
+    //Dog Years
+    int dogYears = [myDog ageInDogYearsFromAge:myDog.age];
+    NSLog(@"%i" , dogYears);
 }
 
 - (void)didReceiveMemoryWarning {
