@@ -13,6 +13,32 @@
 -(void)bark
 {
     NSLog(@"Woof Woof!");
+
+}
+
+-(void) barkANumberOfTimes:(int)numberOfTimes
+{
+    for (int bark =1; bark <= numberOfTimes;bark ++)
+    {
+       [self bark];
+    }
+}
+-(void) barkANumberOfTimes:(int)numberOfTimes loudly:(BOOL) isLoud
+{
+    if (!isLoud)
+    {
+        for (int bark =1 ; bark <= numberOfTimes;bark++)
+        {
+            NSLog(@"Yip Yip");
+        }
+    }
+    else
+    {
+        for (int bark =1; bark <= numberOfTimes;bark ++)
+        {
+            NSLog(@"Ruff Ruff!");
+        }
+    }
 }
 
 @end

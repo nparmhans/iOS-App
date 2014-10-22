@@ -24,8 +24,7 @@
     myDog.name = @"Craig";
     myDog.breed = @"St. Bernard";
     myDog.age = 1;
-    //NSLog(@"My dog is named %@ and its age is %i the breed is %@", myDog.name, myDog.age, myDog.breed);
-    [myDog bark];
+    [myDog barkANumberOfTimes:5 loudly:YES];
 }
 
 - (void)didReceiveMemoryWarning {
