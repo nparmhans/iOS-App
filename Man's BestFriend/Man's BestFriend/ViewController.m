@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MBFDog.h"
 
 @interface ViewController ()
 
@@ -14,9 +15,12 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
+    MBFDog *myDog = [[MBFDog alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
