@@ -10,4 +10,9 @@
 
 @implementation MBFDog
 
+-(void)bark
+{
+    NSLog(@"Woof Woof!");
+}
+
 @end

@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import <UIKit/UIKit.h>//NSObject
 #import <UIKit/UIKit.h>
 
 @interface MBFDog : NSObject
@@ -17,6 +16,10 @@
 @property (nonatomic,strong) NSString *breed;
 @property (nonatomic, strong) UIImage *image;
 @property (strong,nonatomic) NSString *name;
+
+
+-(void) bark;
+
 
 
 
