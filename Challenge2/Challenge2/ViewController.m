@@ -1,13 +1,12 @@
 //
 //  ViewController.m
-//  Man's BestFriend
+//  Challenge2
 //
-//  Created by Nirupa Parmhans on 10/20/14.
+//  Created by Nirupa Parmhans on 10/22/14.
 //  Copyright (c) 2014 Nirupa Parmhans. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "MBFDog.h"
 
 @interface ViewController ()
 
@@ -15,19 +14,9 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    
     // Do any additional setup after loading the view, typically from a nib.
-    MBFDog *myDog = [[MBFDog alloc] init];
-    myDog.name = @"Craig";
-    myDog.breed = @"St. Bernard";
-    myDog.age = 12;
- 
-    //Dog Years
-    int dogYears = [myDog ageInDogYearsFromAge:myDog.age];
-    NSLog(@"%i" , dogYears);
 }
 
 - (void)didReceiveMemoryWarning {
