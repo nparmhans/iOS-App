@@ -23,11 +23,8 @@
     MBFDog *myDog = [[MBFDog alloc] init];
     myDog.name = @"Craig";
     myDog.breed = @"St. Bernard";
-    myDog.age = 12;
- 
-    //Dog Years
-    int dogYears = [myDog ageInDogYearsFromAge:myDog.age];
-    NSLog(@"%i" , dogYears);
+    myDog.age = 1;
+    myDog.image = [UIImage imageNamed:@"stBernard.jpg"];
 }
 
 - (void)didReceiveMemoryWarning {
