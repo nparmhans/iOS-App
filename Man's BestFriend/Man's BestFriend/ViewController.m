@@ -25,6 +25,10 @@
     myDog.breed = @"St. Bernard";
     myDog.age = 1;
     myDog.image = [UIImage imageNamed:@"stBernard.jpg"];
+    self.myImageView.image = myDog.image;
+    self.breedLabel.text = myDog.breed;
+    self.nameLabel.text = myDog.name;
+    
 }
 
 - (void)didReceiveMemoryWarning {
