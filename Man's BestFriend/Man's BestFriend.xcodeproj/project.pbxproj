@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D0AF2A4E19FDADD700E20204 /* stBernard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0AF2A4D19FDADD700E20204 /* stBernard.jpg */; };
+		D0CF3D191A09A7F300590607 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CF3D151A09A7F300590607 /* JRT.jpg */; };
+		D0CF3D1A1A09A7F300590607 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CF3D161A09A7F300590607 /* Bo.jpg */; };
+		D0CF3D1B1A09A7F300590607 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CF3D171A09A7F300590607 /* ItalianGreyhound.jpg */; };
+		D0CF3D1C1A09A7F300590607 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0CF3D181A09A7F300590607 /* BorderCollie.jpg */; };
 		D0FDB12119F5F14F009B79CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDB12019F5F14F009B79CA /* main.m */; };
 		D0FDB12419F5F14F009B79CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDB12319F5F14F009B79CA /* AppDelegate.m */; };
 		D0FDB12719F5F14F009B79CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDB12619F5F14F009B79CA /* ViewController.m */; };
@@ -30,6 +34,10 @@
 
 /* Begin PBXFileReference section */
 		D0AF2A4D19FDADD700E20204 /* stBernard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stBernard.jpg; sourceTree = "<group>"; };
+		D0CF3D151A09A7F300590607 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		D0CF3D161A09A7F300590607 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		D0CF3D171A09A7F300590607 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		D0CF3D181A09A7F300590607 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
 		D0FDB11B19F5F14F009B79CA /* Man's BestFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's BestFriend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FDB11F19F5F14F009B79CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FDB12019F5F14F009B79CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 		D0FDB11E19F5F14F009B79CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0CF3D151A09A7F300590607 /* JRT.jpg */,
+				D0CF3D161A09A7F300590607 /* Bo.jpg */,
+				D0CF3D171A09A7F300590607 /* ItalianGreyhound.jpg */,
+				D0CF3D181A09A7F300590607 /* BorderCollie.jpg */,
 				D0AF2A4D19FDADD700E20204 /* stBernard.jpg */,
 				D0FDB11F19F5F14F009B79CA /* Info.plist */,
 				D0FDB12019F5F14F009B79CA /* main.m */,
@@ -207,10 +219,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CF3D1A1A09A7F300590607 /* Bo.jpg in Resources */,
 				D0FDB12A19F5F14F009B79CA /* Main.storyboard in Resources */,
 				D0AF2A4E19FDADD700E20204 /* stBernard.jpg in Resources */,
+				D0CF3D191A09A7F300590607 /* JRT.jpg in Resources */,
 				D0FDB12F19F5F14F009B79CA /* LaunchScreen.xib in Resources */,
+				D0CF3D1C1A09A7F300590607 /* BorderCollie.jpg in Resources */,
 				D0FDB12C19F5F14F009B79CA /* Images.xcassets in Resources */,
+				D0CF3D1B1A09A7F300590607 /* ItalianGreyhound.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
